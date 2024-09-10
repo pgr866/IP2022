@@ -1,0 +1,39 @@
+package org.ip.sesion02;
+
+public class OperacionAritmetica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+int x = 7, y = 2;
+double resultado = 0;
+char op = '/';
+
+System.out.println("Los datos son:");
+System.out.println("x = " + x + ", y = " + y);
+System.out.println("La operación elegida es: " + op);
+System.out.println();
+
+switch (op) {
+	case '+' :
+		resultado = x + y;
+		break;
+	case '-' :
+		resultado = x - y;
+		break;
+	case '*' :
+		resultado = x * y;
+		break;
+	case '/' :
+		resultado = x / y;
+		break;
+}
+System.out.println("El resultado de la operacion es : " + x + " " + op + " " + y + resultado);
+
+
+
+
+		
+	}
+
+}

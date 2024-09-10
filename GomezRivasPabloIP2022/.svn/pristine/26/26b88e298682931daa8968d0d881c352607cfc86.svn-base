@@ -1,0 +1,19 @@
+package org.ip.sesion02;
+
+public class TarifaTaxi {
+
+	public static void main(String[] args) {
+
+int km = 101;
+double importe;
+if (km>30) {
+	
+}
+
+
+
+
+
+	}
+	
+}

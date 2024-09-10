@@ -1,0 +1,8 @@
+package org.ip.sesion05;
+
+public class MatrizMagica {
+	
+	public static void main(String[] args) {
+		
+	}
+}

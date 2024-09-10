@@ -1,0 +1,38 @@
+package org.ip.sesion04;
+
+import java.util.Scanner;
+
+public class Cilindro {
+	
+	public static void areaVolumenCilindro(double radio, double altura, int opcion) {
+		double area = 2 * Math.PI * radio * (altura + radio);
+		double volumen = Math.PI * Math.pow(radio, 2) * altura;
+		
+		switch (opcion) {
+			case 1:
+				System.out.println("El area del cilindro es de: " + area);
+				break;
+			case 2:
+				System.out.println("El volumen del cilindro es de: " + volumen);
+				break;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		double radio;
+		double altura;		
+		int opcion;
+		Scanner entrada=new Scanner(System.in);
+		
+		System.out.print("Introduzca radio: ");
+		radio = entrada.nextDouble();
+		System.out.print("Introduzca altura: ");
+		altura = entrada.nextDouble();
+		System.out.print("Que desea calcular (1 (area) / 2 (volumen)): ");
+		opcion = entrada.nextInt();
+		System.out.println();
+		Cilindro.areaVolumenCilindro(radio, altura, opcion);
+		
+	}
+}

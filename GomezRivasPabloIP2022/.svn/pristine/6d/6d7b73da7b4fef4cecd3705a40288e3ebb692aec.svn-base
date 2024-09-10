@@ -1,0 +1,8 @@
+package org.ip.sesion05;
+
+public class PracticarConArrays {
+	
+	public static void main(String[] args) {
+		
+	}
+}
